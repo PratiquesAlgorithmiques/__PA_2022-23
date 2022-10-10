@@ -1,0 +1,35 @@
+body {
+    font-family: 'Comforter Brush', cursive;
+}  
+    
+h1 {
+    color: red;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+img {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#kitty {
+    display: inline;
+    margin-bottom: 0px;
+}
+
+#super {
+    color: orange;
+    font-family: 'Silkscreen', cursive;
+}
