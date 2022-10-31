@@ -1,0 +1,26 @@
+body {
+    font-size: 24px;
+    text-align: justify;
+    word-break: break-all;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+@page {
+    size: A5 landscape;
+    /* margin: 40mm 15mm; */
+    /* marks: crop cross; */
+}
+
+@page:left {
+    margin-left: 35mm;
+    margin-right: 15mm;
+}
+
+@page:right {
+    margin-left: 15mm;
+    margin-right: 35mm;
+}
