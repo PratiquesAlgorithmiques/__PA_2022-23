@@ -1,0 +1,45 @@
+body {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  background:lightgray;
+}
+
+@page {
+  size: 140mm 200mm;
+  margin: 15mm;
+
+  @bottom-right {
+    content: counter(page);
+  }
+}
+
+@page:left {
+  margin-right: 30mm;
+}
+
+@page:right {
+  margin-left: 30mm;
+}
+
+@page:nth(3) {
+  background-color: yellow;
+}
+
+h1 {
+  break-before: right;
+}
+
+img {
+  display:block;
+  width: 100%;
+}
+
+#couverture {
+  page: couverture;
+}
+
+@page couverture {
+  background-color: bisque;
+  text-align: center;
+}
+  
